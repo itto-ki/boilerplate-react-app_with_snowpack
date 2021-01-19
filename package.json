@@ -13,7 +13,6 @@
     "babel-plugin-transform-remove-console": "6.9.4",
     "copy-and-watch": "0.1.4",
     "serve": "11.3.0",
-    "snowpack": "^1.1.0",
     "typescript": "3.7.5",
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10"
@@ -29,6 +28,7 @@
   "main": "index.js",
   "dependencies": {
     "react": "npm:@reactesm/react",
-    "react-dom": "npm:@reactesm/react-dom"
+    "react-dom": "npm:@reactesm/react-dom",
+    "snowpack": "^3.0.11"
   }
 }
