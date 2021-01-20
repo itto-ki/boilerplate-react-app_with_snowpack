@@ -1,4 +1,4 @@
 .PHONY: dev-js
 
-dev-js:
-	yarn serve
+start:
+	yarn start

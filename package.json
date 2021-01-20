@@ -2,33 +2,20 @@
   "name": "react-product-example",
   "version": "1.0.0",
   "devDependencies": {
-    "@babel/cli": "7.7.7",
-    "@babel/core": "7.7.7",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "7.8.3",
-    "@babel/plugin-proposal-optional-chaining": "7.8.3",
-    "@babel/preset-env": "7.7.7",
-    "@babel/preset-react": "7.7.4",
-    "@babel/preset-typescript": "7.7.7",
-    "babel-loader": "8.0.6",
-    "babel-plugin-transform-remove-console": "6.9.4",
-    "copy-and-watch": "0.1.4",
-    "serve": "11.3.0",
-    "typescript": "3.7.5",
-    "webpack": "4.41.5",
-    "webpack-cli": "3.3.10"
+    "@snowpack/plugin-run-script": "^2.3.0",
+    "snowpack": "^3.0.11",
+    "typescript": "^4.1.3"
   },
   "scripts": {
-    "watch": "babel src -w --out-dir statics -x .ts,.tsx & copy-and-watch --watch ./src/assets/**/* statics & copy-and-watch --watch ./src/modules/* statics/modules",
-    "serve": "yarn watch & serve statics",
-    "deploy": "yarn deploy:assets & webpack",
-    "deploy:assets": "copy-and-watch ./src/assets/**/* ./src/modules/ statics && copy-and-watch ./src/modules/* statics/modules",
-    "prepare": "snowpack --clean --dest 'src/modules'"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "react": "npm:@reactesm/react",
-    "react-dom": "npm:@reactesm/react-dom",
-    "snowpack": "^3.0.11"
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
