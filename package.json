@@ -22,7 +22,7 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "lint": "run-p lint:*",
-    "lint:eslint": "eslint ./src --format stylish",
+    "lint:eslint": "eslint ./src",
     "lint:prettier": "prettier ./src --check",
     "fix": "run-s fix:eslint fix:prettier",
     "fix:eslint": "yarn lint:eslint --fix",
