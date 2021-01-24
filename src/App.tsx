@@ -5,7 +5,3 @@ export default memo(function App() {
     <> {`Hello, ${import.meta.env.SNOWPACK_PUBLIC_APPLICATION_NAME} !`} </>
   );
 });
-
-function yo(str: string) {
-  return str;
-}
