@@ -2,6 +2,7 @@
   "name": "react-product-example",
   "version": "1.0.0",
   "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-run-script": "^2.3.0",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
