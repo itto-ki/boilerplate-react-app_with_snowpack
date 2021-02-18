@@ -2,6 +2,8 @@
   "name": "react-product-example",
   "version": "1.0.0",
   "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-run-script": "^2.3.0",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
@@ -32,8 +34,6 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
